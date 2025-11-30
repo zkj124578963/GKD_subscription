@@ -27,6 +27,12 @@ export default defineGkdApp({
             '@Image[text="close"] < View[childCount=4] <2 * <<n [id="com.sina.weibo:id/container"]',
           snapshotUrls: 'https://i.gkd.li/i/14033735',
         },
+        {
+          key: 28,
+          activityIds: '.page.recommend.AccountRecommendActivity',
+          matches: '[vid="recommend_close_activity"]',
+          snapshotUrls: 'https://i.gkd.li/i/23837591',
+        },
       ],
     },
     {
