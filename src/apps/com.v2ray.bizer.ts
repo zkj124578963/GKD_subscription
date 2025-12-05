@@ -7,15 +7,15 @@ export default defineGkdApp({
     {
       key: 1,
       name: '通知提示-公告弹窗',
-      desc: '点击 X 关闭弹窗',
+      desc: '点击关闭',
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
       rules: [
         {
-          activityIds: 'com.github.kr328.main.HomeActivity',
-          matches: '[id$="close"]',
-          exampleUrls: 'https://i.gkd.li/snapshot/1764428898825',
+          fastQuery: true,
+          matches: '@[vid="close"] - [text*="公告"][visibleToUser=true]',
+          exampleUrls: 'https://e.gkd.li/6dde3a1f-0428-4110-918e-f4b5853d5c04',
           snapshotUrls: 'https://i.gkd.li/i/23834355',
         },
       ],
