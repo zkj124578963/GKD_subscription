@@ -1,13 +1,13 @@
 import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
-  id: 'com.b1585bcce5.v174991545.o81dcc058a20251204',
+  id: 'com.ecccdd5199.u535a3e7d8.o81dcc058a20251204',
   name: '瓜子影视 v3.0.3.4',
   groups: [
     {
       key: 3,
       name: '全屏广告-弹窗广告',
-      activityIds: ['com.e0caf8d3b1.kb2d4628f1.activity.ad.AdActivity'],
+      activityIds: ['com.ecccdd5199.u535a3e7d8.activity.ad.AdActivity'],
       rules: [
         {
           matches: '[text*="跳过"]',
@@ -19,7 +19,7 @@ export default defineGkdApp({
       key: 4,
       name: '局部广告-卡片广告',
       activityIds: [
-        'com.e0caf8d3b1.kb2d4628f1.activity.homepage.HomepageActivity',
+        'com.ecccdd5199.u535a3e7d8.activity.homepage.HomepageActivity',
       ],
       rules: [
         {
