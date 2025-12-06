@@ -11,7 +11,7 @@ export default defineGkdApp({
         key: 0,
         name: '双十二打折',
         activityIds: 'com.chuanglan.shanyan_sdk.view.ShanYanOneKeyActivity',
-        matches: '[id$="img_cancel"]',
+        matches: ['[id$="img_cancel"]', '[id$="iv_active_close"]'],
         exampleUrls: 'https://i.gkd.li/snapshot/1765034189408',
         snapshotUrls: 'https://i.gkd.li/i/23988877',
       },
