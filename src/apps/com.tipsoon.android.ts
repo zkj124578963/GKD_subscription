@@ -35,7 +35,7 @@ export default defineGkdApp({
           key: 0,
           activityIds: 'com.tipsoon.android.activity.MainActivity',
           matches:
-            '[id="com.tipsoon.android:id/cardview"] + [id="com.tipsoon.android:id/img_close"]',
+            '[id="com.tipsoon.android:id/cardview"] + [id="com.tipsoon.android:id/img_close"] + @ImageView <4 [vid="cons_root"]',
           snapshotUrls: 'https://i.gkd.li/i/13426997',
         },
       ],
