@@ -5,6 +5,19 @@ export default defineGkdApp({
   name: 'CSDN',
   groups: [
     {
+      key: 0,
+      name: '全屏广告-弹窗广告',
+      rules: {
+        key: 0,
+        name: '双十二打折',
+        activityIds: 'com.chuanglan.shanyan_sdk.view.ShanYanOneKeyActivity',
+        matches: '[id$="img_cancel"]',
+        exampleUrls:
+          'https://i.gkd.li/snapshot/1765034189408',
+        snapshotUrls: 'https://i.gkd.li/i/23988877',
+      },
+    },
+    {
       key: 1,
       name: '更新提示',
       fastQuery: true,
